@@ -1,0 +1,1 @@
+Coloque aqui os retratos ilustrados: personagem-expressao.png (ver docs/arte/guia-prompts.md).
