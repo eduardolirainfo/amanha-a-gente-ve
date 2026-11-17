@@ -1,0 +1,12 @@
+/* Tela de carregamento: carrega antes do jogo (index.html) */
+html, body { margin: 0; background: #1a0e16; }
+#carregando { position: fixed; inset: 0; z-index: 100; display: grid; place-content: center; justify-items: center; gap: 14px; background: radial-gradient(circle at 50% 45%, #2a1424, #120a10 70%); transition: opacity .7s ease; }
+#carregando.some { opacity: 0; pointer-events: none; }
+#carregando p { margin: 0; font: 700 22px "Caveat", "Segoe Print", cursive; color: #f6d9a8; letter-spacing: .04em; opacity: .85; }
+.emblema { width: 132px; height: auto; overflow: visible; }
+.emblema .horizonte { stroke: #f6b42c; stroke-width: 4; stroke-linecap: round; }
+.emblema .sol { fill: #f6b42c; transform-box: fill-box; transform-origin: 50% 100%; animation: emblema-sobe 2.4s ease-in-out infinite; }
+.emblema .raios line { stroke: #f6b42c; stroke-width: 5; stroke-linecap: round; opacity: .15; animation: emblema-raio 1.6s ease-in-out infinite; animation-delay: calc(var(--i) * .16s); }
+@keyframes emblema-raio { 30% { opacity: 1; } 70%, 100% { opacity: .15; } }
+@keyframes emblema-sobe { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .emblema * { animation: none !important; opacity: 1 !important; } }

@@ -6,9 +6,21 @@
     <title>Amanhã a Gente Vê</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Caveat+Brush&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="./assets/index-CV3qTRDC.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D6lksIto.css">
+    <!-- Tela de carregamento: aparece antes de qualquer coisa e some quando o título está pronto -->
+    <link rel="stylesheet" href="./carregando.css" />
+    <script type="module" crossorigin src="./assets/index-AhfmMIdp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D0sVNZZV.css">
   </head>
   <body>
+    <div id="carregando" role="status" aria-label="Carregando">
+      <svg class="emblema" viewBox="0 0 120 70" aria-hidden="true">
+        <g class="raios">
+          <line x1="30.9" y1="54.7" x2="19.2" y2="51.8" style="--i:0"/><line x1="37.7" y1="41.9" x2="28.8" y2="33.9" style="--i:1"/><line x1="48.8" y1="34.2" x2="44.3" y2="23.1" style="--i:2"/><line x1="60.0" y1="32.0" x2="60.0" y2="20.0" style="--i:3"/><line x1="71.2" y1="34.2" x2="75.7" y2="23.1" style="--i:4"/><line x1="82.3" y1="41.9" x2="91.2" y2="33.9" style="--i:5"/><line x1="89.1" y1="54.7" x2="100.8" y2="51.8" style="--i:6"/>
+        </g>
+        <path class="sol" d="M38 62 A22 22 0 0 1 82 62 Z"/>
+        <line class="horizonte" x1="8" y1="64" x2="112" y2="64"/>
+      </svg>
+      <p>carregando…</p>
+    </div>
   </body>
 </html>
