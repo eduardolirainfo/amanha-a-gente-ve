@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Ícone do app: a caneca esmaltada do Tartá, com a coroa pintada, contra o céu do título.
+       Quadrado cheio (o celular arredonda); tudo que importa fica dentro dos 80% do meio. -->
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b3a6e"/><stop offset=".45" stop-color="#b8687a"/><stop offset=".78" stop-color="#ef9a5a"/><stop offset="1" stop-color="#f6b42c"/>
+    </linearGradient>
+    <linearGradient id="esmalte" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9cbb8"/><stop offset=".35" stop-color="#f3ebdf"/><stop offset="1" stop-color="#b9a892"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#ceu)"/>
+  <!-- o sol se pondo atrás, e a laje -->
+  <circle cx="256" cy="372" r="150" fill="#f6c25a" opacity=".55"/>
+  <rect y="392" width="512" height="120" fill="#4a2a3a"/>
+  <rect y="392" width="512" height="10" fill="#2a1424" opacity=".6"/>
+  <!-- alça -->
+  <path d="M338 205 C410 205 410 330 338 330" fill="none" stroke="#2a1424" stroke-width="34" stroke-linecap="round"/>
+  <path d="M338 205 C402 205 402 330 338 330" fill="none" stroke="#e6dccd" stroke-width="18" stroke-linecap="round"/>
+  <!-- corpo -->
+  <path d="M148 168 H352 V372 Q352 404 320 404 H180 Q148 404 148 372 Z" fill="url(#esmalte)" stroke="#2a1424" stroke-width="10" stroke-linejoin="round"/>
+  <!-- borda escura lascada -->
+  <ellipse cx="250" cy="168" rx="104" ry="20" fill="#2a1424"/>
+  <ellipse cx="250" cy="166" rx="88" ry="12" fill="#1a0e14"/>
+  <path d="M196 380 l10 -6 l4 9 Z M300 210 l8 4 l-6 6 Z" fill="#6b5a4a" opacity=".7"/>
+  <!-- a coroa pintada à mão -->
+  <path d="M196 312 L190 236 L222 266 L250 220 L278 266 L310 236 L304 312 Z" fill="#e8962e" stroke="#2a1424" stroke-width="9" stroke-linejoin="round"/>
+</svg>
